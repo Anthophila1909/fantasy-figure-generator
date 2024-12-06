@@ -1,0 +1,77 @@
+body {
+  background-color: #c5e5e3;
+  font-family: "Parkinsans", sans-serif;
+}
+
+.container {
+  margin: 200px auto;
+  max-width: 600px;
+}
+
+header {
+  margin-bottom: 50px;
+}
+
+h1 {
+  text-align: center;
+  margin: 0;
+  line-height: 1.5;
+  font-size: 33px;
+}
+
+form {
+  background-color: white;
+  padding: 25px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+}
+
+.form-input {
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.19);
+  border-radius: 4px;
+  width: 80%;
+  font-family: "Parkinsans", sans-serif;
+  line-height: 2;
+  font-size: 14px;
+}
+
+.form-submit {
+  padding: 10px;
+  margin-left: 10px;
+  width: 20%;
+  border: none;
+  border-radius: 4px;
+  font-family: "Parkinsans", sans-serif;
+  line-height: 2;
+  font-size: 14px;
+  background-color: #a3a7e4;
+  color: white;
+}
+
+.form-submit:hover {
+  cursor: pointer;
+  background-color: #c5e5e3;
+  transition: all 200ms ease;
+}
+
+.ai-result {
+  padding: 20px;
+  margin-bottom: 40px;
+  background-color: white;
+  border-left: 5px solid #a3a7e4;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  line-height: 2;
+}
+
+footer {
+  text-align: center;
+  font-size: 13px;
+}
+
+a {
+  color: #898ecf;
+  text-decoration: none;
+}

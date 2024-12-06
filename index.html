@@ -4,26 +4,35 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
     <title>AI Fantasy Figure Generator</title>
   </head>
   <body>
+
+    <div class="container"">
     <header>
-      <h1>Welcome to the Fantasy Figure Generator</h1>
+      <h1>AI Fantasy Figure Generator</h1>
     </header>
 
     <main>
       <form>
         <input
           type="text"
-          placeholder="Enter the topic of the Fatasy Figure here"
+          placeholder="Enter the topic of your Fantasy Figure here"
           autofocus
           required
           autocomplete="off"
+          class="form-input"
         />
-        <input type="submit" />
+        <input type="submit" class="form-submit" />
       </form>
 
-      <div>
+      <div class="ai-result">
         placeholder
         <br />
         placeholder
@@ -46,6 +55,7 @@
         >Netlify</a
       >
     </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
