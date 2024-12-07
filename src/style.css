@@ -66,6 +66,10 @@ form {
   line-height: 2;
 }
 
+.ai-result h2 {
+  color: #a3a7e4;
+}
+
 footer {
   text-align: center;
   font-size: 13px;
