@@ -1,6 +1,4 @@
 function displayFantasyFigure(response) {
-  console.log("Fantasy Figure generated");
-
   new Typewriter("#generated-result", {
     strings: response.data.answer,
     autoStart: true,
@@ -25,10 +23,6 @@ function generateFigure(event) {
   let figureElement = document.querySelector("#generated-result");
   figureElement.classList.remove("hidden");
   figureElement.innerHTML = `<div class="blink">⏳Generating your Fantasy Figure about ${userImput.value} ...</div>`;
-
-  console.log("Generating Fantasy Figure");
-  console.log(`Prompt: ${prompt}`);
-  console.log(`Context: ${context}`);
 }
 
 let generatorFormElement = document.querySelector("#generator-form");
