@@ -22,20 +22,23 @@
     </header>
 
     <main>
-      <form id="generator-form">
-        <input
-          type="text"
-          placeholder="Enter the topic of your Fantasy Figure here"
-          autofocus
-          required
-          autocomplete="off"
-          class="form-input"
-          id="user-input"
-        />
-        <input type="submit" class="form-submit" />
-      </form>
+      <div class="form-container">
+        <form id="generator-form">
+          <input
+            type="text"
+            placeholder="Enter the topic of your Fantasy Figure here"
+            autofocus
+            required
+            autocomplete="off"
+            class="form-input"
+            id="user-input"
+          />
+          <input type="submit" class="form-submit" />
+        </form>
+        <div class="user-examples">i.e. fire, small, magic or flying</div>
+      </div>
 
-      <div class="ai-result" id="generated-result"></div>
+      <div class="ai-result hidden" id="generated-result"></div>
     </main>
 
     <footer>

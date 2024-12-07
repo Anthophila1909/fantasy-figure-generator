@@ -22,6 +22,10 @@ function generateFigure(event) {
 
   axios.get(apiURL).then(displayFantasyFigure);
 
+  let figureElement = document.querySelector("#generated-result");
+  figureElement.classList.remove("hidden");
+  figureElement.innerHTML = `<div class="blink">⏳Generating your Fantasy Figure about ${userImput.value} ...</div>`;
+
   console.log("Generating Fantasy Figure");
   console.log(`Prompt: ${prompt}`);
   console.log(`Context: ${context}`);
